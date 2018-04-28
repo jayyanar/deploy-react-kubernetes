@@ -47,7 +47,8 @@ When the reader has completed this Code Pattern, they will understand how to:
 1. You must get an API key from [OMDb API](http://www.omdbapi.com/) in order to get a response from the API. You will insert your API key in `/src/actions/index.js` on line 42
 [OMDb API](http://www.omdbapi.com/) by Brian Fitz is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
-2. Create an environment variable for your docker username
+2. Create an environment variable for your docker username - If you are in Windows environment you need to ensure bash
+is enabled - https://docs.microsoft.com/en-us/windows/wsl/install-win10
 ```
 $ export docker_username="YOUR_DOCKER_USERNAME"
 ```
